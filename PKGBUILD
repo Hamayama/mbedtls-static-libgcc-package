@@ -6,7 +6,7 @@ _realname=mbedtls
 pkgbase="mingw-w64-${_realname}-static-libgcc"
 pkgname="${MINGW_PACKAGE_PREFIX}-${_realname}-static-libgcc"
 pkgver=2.16.5
-pkgrel=1
+pkgrel=2
 arch=('any')
 url='https://tls.mbed.org/'
 pkgdesc='mbed TLS is an open source and commercial SSL library licensed by ARM Limited. (mingw-w64) (build with -static-libgcc)'
@@ -48,7 +48,6 @@ build() {
   cd ${srcdir}/build-${MINGW_CHOST}
   
   MSYS2_ARG_CONV_EXCL="-DCMAKE_INSTALL_PREFIX=" \
-  #${MINGW_PREFIX}/bin/cmake \
   cmake \
     -G"MSYS Makefiles" \
     -DCMAKE_BUILD_TYPE=${BUILD_TYPE} \
