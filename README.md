@@ -75,7 +75,7 @@
   - MSYS2/MinGW-w64 (64bit) (gcc version 10.2.0 (Rev1, Built by MSYS2 project)) (Windows 10)
 
 ## 履歴
-- 2020-10-14 mbedtls 2.16.5-1 のパッケージファイルを作成
+- 2020-10-14 mbedtls-static-libgcc 2.16.5-1 のパッケージファイルを作成
 
 
 (2020-10-14)
