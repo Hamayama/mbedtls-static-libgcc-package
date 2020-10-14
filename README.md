@@ -43,14 +43,14 @@
    ( c:\work にパッケージファイルを置いた場合)
    ```
    cd /c/work
-   pacman -U mingw-w64-x86_64-mbedtls-static-libgcc-2.16.5-1-any.pkg.tar.xz
+   pacman -U mingw-w64-x86_64-mbedtls-static-libgcc-2.16.5-2-any.pkg.tar.xz
    ```
    ＜MSYS2/MinGW-w64 (32bit) 環境の場合＞  
    プログラムメニューから MSYS2 の MinGW 32bit Shell を起動して、以下のコマンドを実行してください。  
    ( c:\work にパッケージファイルを置いた場合)
    ```
    cd /c/work
-   pacman -U mingw-w64-i686-mbedtls-static-libgcc-2.16.5-1-any.pkg.tar.xz
+   pacman -U mingw-w64-i686-mbedtls-static-libgcc-2.16.5-2-any.pkg.tar.xz
    ```
 
 - 以上です。
@@ -76,7 +76,7 @@
 
 ## 履歴
 - 2020-10-14 mbedtls-static-libgcc 2.16.5-1 のパッケージファイルを作成
-- 2020-10-15 mbedtls-static-libgcc 2.16.5-2 のパッケージファイルを作成
+- 2020-10-15 mbedtls-static-libgcc 2.16.5-2 のパッケージファイルを作成  
   (フォルダ指定ミス修正)
 
 
