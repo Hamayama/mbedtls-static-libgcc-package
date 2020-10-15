@@ -8,7 +8,7 @@
 
 - 標準の mbedTLS パッケージとの違いは、libgcc を static link にしたことです。  
   このため、成果物を配布する場合に、  
-  libgcc_s_seh-1.dll (64bit環境の場合) や libgcc_s_dw2-1.dll (32bit環境の場合) を、  
+  libgcc_s_seh-1.dll (64bit 環境の場合) や libgcc_s_dw2-1.dll (32bit 環境の場合) を、  
   配布する必要がありません。  
   (libmbedtls.dll , libmbedcrypto.dll , libmbedx509.dll のみを配布すればよい)
 
