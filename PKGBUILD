@@ -75,7 +75,7 @@ package () {
   make DESTDIR=${pkgdir} install
   
   # Install the documentation
-  cd "${srcdir}/${_realname}-${pkgver}"
+  #cd "${srcdir}/${_realname}-${pkgver}"
   #mkdir -p "${pkgdir}/${MINGW_PREFIX}/share/doc/${_realname}"
   #cp -Rp apidoc "${pkgdir}/${MINGW_PREFIX}/share/doc/${_realname}/html"
 }
